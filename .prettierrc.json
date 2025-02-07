@@ -1,0 +1,11 @@
+{
+  "printWidth": 120,
+  "tabWidth": 2,
+  "parser": "typescript",
+  "overrides": [
+    { "files": ["*.ts"], "options": { "tabWidth": 2, "parser": "typescript" } },
+    { "files": ["*.vue"], "options": { "tabWidth": 2, "parser": "vue" } },
+    { "files": ["*.json"], "options": { "tabWidth": 2, "parser": "json" } },
+    { "files": ["*.css"], "options": { "tabWidth": 2, "parser": "css" } }
+  ]
+}
