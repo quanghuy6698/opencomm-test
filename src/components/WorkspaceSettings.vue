@@ -31,20 +31,20 @@ import Pack from "./Pack.vue";
         <Pack
           title="Product development"
           description="Use this pack for product development process."
-          :stats="{ blue: 4, yellow: 8, green: 13, orange: 3 }"
-          board="Leanbase"
+          :stats="{ checked: 4, target: 8, labels: 13, power: 3 }"
+          :assignees="['Leanbase']"
         />
         <Pack
           title="Approval & Feedback demo"
           description="Use this pack for product development process."
-          :stats="{ blue: 4, yellow: 8, green: 13, orange: 3 }"
-          board="None"
+          :stats="{ checked: 4, target: 8, labels: 13, power: 3 }"
+          :assignees="['Leanbase']"
         />
         <Pack
           title="Approval & Feedback demo"
           description="Use this pack for product development process."
-          :stats="{ blue: 4, yellow: 8, green: 13, orange: 3 }"
-          board="Bamboo, PrintBase, Front-Build, Dpro, Graphic design"
+          :stats="{ checked: 4, target: 8, labels: 13, power: 3 }"
+          :assignees="['Bamboo', 'PrintBase', 'Front-Build', 'Dpro', 'Graphic design']"
         />
       </div>
     </div>
